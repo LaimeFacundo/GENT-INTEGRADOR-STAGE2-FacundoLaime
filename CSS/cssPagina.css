@@ -1,0 +1,113 @@
+.encabezado{
+    height: 200px;
+    width: 100%;
+
+    background-color: rgb(226, 210, 89);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.encabezado > h1 {
+color: aliceblue;
+margin-left: 50px;
+
+}
+.encabezado > img {
+
+height: 150px;
+width: auto;
+margin-right: 50px;
+
+}
+
+
+.navBar{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+/* ---------------- MAIN SECTION ------------------- */
+#main {
+
+width: 100%;
+margin: 0px;
+background-color: rgb(49, 49, 49);
+color: white;
+}
+
+
+.fotoSection{
+    background-color: rgb(42, 42, 42);
+}
+.principal1{
+    display: flex;
+    flex-direction: row;
+}
+.principal1 > img{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconchefsIMG{
+    width: 300px;
+    height: auto;
+    margin-left: 25%;
+}
+
+.row{
+    margin: 15px;
+    border: 1px solid rgb(255, 210, 235); 
+}
+.col{
+    border: 1px solid rgb(163, 163, 163);
+    margin: 10px;
+}
+
+
+
+
+
+.imgSectionMain {
+padding: 20px;
+width: 100%;
+height: auto;
+background-color: rgb(89, 88, 88);
+color: antiquewhite;
+text-align: center;
+
+}
+.imgSectionMain > div > .row,
+.imgSectionMain > div > .col
+{
+   margin: 15px;
+   display: flex;
+   justify-content: center;
+}
+
+div > img {
+    width: 80%;
+    height: auto;
+    border: 1px solid rgb(21, 21, 21);
+}
+
+
+
+
+
+/*FOOTER --------------------------------------*/
+
+#footer {
+
+height: 500px;
+width: 100%;
+background-color: rgb(41, 41, 41);
+color: antiquewhite;
+
+}
