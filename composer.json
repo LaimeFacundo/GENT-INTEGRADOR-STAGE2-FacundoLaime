@@ -1,0 +1,26 @@
+{
+
+"name": "integrador/tienda_online" ,
+"description": "Creacion de una tienda online" ,
+"type": "proyect" ,
+"license": "MIT" ,
+"authors": [
+
+{
+    "name": "FacundoLaime",
+    "email": "yofacu1234@gmail.com"
+
+}
+
+] ,
+"require": {
+
+} ,
+
+"autoload": {
+    "psr-4": {
+        "integrador//" : "integrador/"
+    }
+}
+
+}

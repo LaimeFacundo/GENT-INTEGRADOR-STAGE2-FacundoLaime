@@ -69,10 +69,10 @@ color: white;
 
 .row{
     margin: 15px;
-    border: 1px solid rgb(255, 210, 235); 
+    /* border: 1px solid rgb(255, 210, 235); */
 }
 .col{
-    border: 1px solid rgb(163, 163, 163);
+ /*   border: 1px solid rgb(163, 163, 163); */
     margin: 10px;
 }
 
@@ -82,10 +82,10 @@ color: white;
 
 .imgSectionMain {
 padding: 20px;
-width: 100%;
+margin: 2%;
 height: auto;
-background-color: rgb(89, 88, 88);
-color: antiquewhite;
+background-color: rgb(228, 228, 228);
+color: rgb(46, 46, 46);
 text-align: center;
 
 
@@ -98,11 +98,16 @@ text-align: center;
    justify-content: center;
 }
 
-div > img {
+.imgSectionMain > .row > .col > img {
     width: 80%;
     height: auto;
-    border: 1px solid rgb(21, 21, 21);
+    border: 1px solid rgb(62, 62, 62);
+    &:hover {
+        transform: scale(1.01);
+        box-shadow: 0 3px 6px rgba(243, 255, 16, 0.589);
+      }
 }
+
 
 
 
@@ -112,7 +117,7 @@ div > img {
 
 #footer {
 
-height: 500px;
+height: auto;
 width: 100%;
 background-color: rgb(41, 41, 41);
 color: antiquewhite;
